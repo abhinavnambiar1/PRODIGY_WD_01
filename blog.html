@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="./index.html"><img src="images/Sherlock.png" alt=""></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png">   <!-- Hamburger menu--> 
+
+            <div  class="fas fa-user" id="login-btn"></div>
+            <form class="login-form">
+                <h3>Login Now</h3>
+                <input type="email" placeholder="Your Email" class="box" required>
+                <input type="password" placeholder="Your Password" class="box" minlength="8" required>
+                <p>Forget password <a href="#">Click Here</a></p>
+                <p>Don't have account <a href="#">Create Now</a></p>
+                <input type="submit" value="Login Now" class="login-now">
+            </form>
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <section id="about-home">
+        <h2>Blog !!</h2>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog-container">
+        <div class="blogs">
+            <div class="posts">
+                <img src="images/./webdevelopment.png">
+                <h3>Learn Web Develoment In Easiest Way</h3>
+                <p>Web development is the building and maintenance of websites; it’s the work that happens behind the scenes to make
+                    a website look great, work fast and perform well with a seamless user experience.
+                    Web developers, or ‘devs’, do this by using a variety of coding languages. The languages they use depends on 
+                    the types of tasks they are preforming and the platforms on which they are working.
+                    Web development skills are in high demand worldwide and well paid too – making development a great career option. 
+                    Let’s delve into the details.
+                </p>
+                <a>Read More</a>
+            </div>
+            <div class="posts">
+                <img src="images/Android.png">
+                <h3>App Development</h3>
+                <p>What is application development?
+                    Application development is the process of creating a computer program or a set of programs to perform the different 
+                    tasks that a business requires. From calculating monthly expenses to scheduling sales reports, applications help 
+                    businesses automate processes and increase efficiency. Every app-building process follows the same steps: gathering 
+                    requirements, designing prototypes, testing, implementation, and integration.
+                </p>
+                <a>Read More</a>
+            </div>
+            <div class="posts">
+                <img src="images/javascript.png">
+                <h3>Basics Of JavaScript</h3>
+                <p>JavaScript is a dynamic programming language that's used for web development, 
+                    in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages 
+                    that cannot be done with only HTML and CSS.
+                    Many browsers use JavaScript as a scripting language for doing dynamic things on the web. Any time you see a 
+                    click-to-show dropdown menu, extra content added to a page, and dynamically changing element colors on a page, 
+                    to name a few features, you're seeing the effects of JavaScript.
+                </p>
+                <a>Read More</a>
+            </div>
+            <div class="posts">
+                <img src="images/ReactJs.png">
+                <h3>Getting To Know React</h3>
+                <p>React is a JavaScript-based UI development library. Facebook and an open-source developer community run it. 
+                Although React is a library rather than a language, it is widely used in web development. The library first 
+                appeared in May 2013 and is now one of the most commonly used frontend libraries for web development. 
+                React offers various extensions for entire application architectural support, such as Flux and React Native, 
+                beyond mere UI.
+                </p>
+                <a>Read More</a>
+            </div>
+        </div>
+        <div class="cate">
+            <h2>Categories</h2>
+            <hr>
+            <a>Web Development</a>
+            <hr>
+            <a>App Development</a>
+            <hr>
+            <a>ReactJS</a>
+            <hr>
+            <a>JavaScript Hack</a>
+            <hr>
+            <a>Web Development And Design </a>
+            <hr>
+            <a>Frontend and JavaScript</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assests</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. We only send promo offers.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright ©2023 All Rights Reseved. This template is made by Abhinav Nambiar </p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+        
+        let loginForm = document.querySelector('.login-form');
+
+        document.querySelector('#login-btn').onclick = () =>{
+            loginForm.classList.toggle('active');
+        }
+    </script>
+      
+</body>
+</html>

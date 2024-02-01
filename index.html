@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="./index.html"><img src="images/Sherlock.png" alt=""></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png">    <!-- Hamburger menu--> 
+            
+            <div  class="fas fa-user" id="login-btn"></div>
+            <form class="login-form">
+                <h3>Login Now</h3>
+                <input type="email" placeholder="Your Email" class="box" required>
+                <input type="password" placeholder="Your Password" class="box" minlength="8" required>
+                <p>Forget password <a href="#">Click Here</a></p>
+                <p>Don't have account <a href="#">Create Now</a></p>
+                <input type="submit" value="Login Now" class="login-now">
+            </form>
+
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home">
+        <h2>Elevate Your Future with Our Enriching Opportunities</h2>
+        <p>
+            Transform Your Future with Our Indian Online Learning Platform! Access Foundational and Skill-Building Courses, empowering passionate individuals across various technologies. Our Core Programs offer immersive, intensive training led by expert faculties, shaping aspiring individuals into exceptional developers.
+        </p>
+        <div class="btn">
+            <a class="blue" href="#">Learn More</a>
+            <a class="yellow" href="#">Explore Courses</a>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features">
+        <h1>Stellar Advantages</h1>
+        <p>Let's begin by making the most of the exceptional features we offer.</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Scholarship Facility</h3>
+                <p>Empower your education journey with our scholarship facility. Unlock opportunities for a brighter future.</p>
+
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-school"></i>
+                <h3>Online Courses</h3>
+                <p>Embark on a digital learning adventure with our diverse array of online courses.</p>
+
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-award"></i>
+                <h3>Global Certifications</h3>
+                <p>Elevate your career prospects with globally recognized certifications.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES -->
+    <section id="course">
+    <h1>Our Most Prominent Courses</h1>
+    <p>
+        Immerse yourself in learning and skill development from the comfort of your home.
+    </p>
+    <div class="course-box">
+        <div class="courses">
+            <img src="images/c1.jpg" alt="">
+            <div class="details">
+                <span>Published on 01/11/2023 </span>
+                <h6>JavaScript Beginners Course</h6>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(236 Enrolled)</span>
+                </div>
+            </div>
+            <div class="cost">
+                $99.99
+            </div>
+        </div>
+        <div class="courses">
+            <img src="images/c2.jpg" alt="">
+            <div class="details">
+                <span>Published on 21/9/2020 </span>
+                <h6>Master HTML And CSS</h6>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(500 Enrolled)</span>
+                </div>
+            </div>
+            <div class="cost">
+                $13.99
+            </div>
+        </div>
+            <div class="courses">
+                <img src="images/c3.jpg" alt="">
+                <div class="details">
+                    <span>Published on 19/10/2020 </span>
+                    <h6>Advance Python Course</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(454 Enrolled)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    $30.00
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assests</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. We only send promo offers.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright ©2023 All Rights Reseved. This webpage is made by Abhinav Nambiar</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+
+        let loginForm = document.querySelector('.login-form');
+
+        document.querySelector('#login-btn').onclick = () =>{
+            loginForm.classList.toggle('active');
+        }
+        
+    </script>
+      
+</body>
+</html>

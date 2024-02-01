@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="./index.html"><img src="images/Sherlock.png" alt=""></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="#">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png">   <!-- Hamburger menu--> 
+
+            <div  class="fas fa-user" id="login-btn"></div>
+            <form class="login-form">
+                <h3>Login Now</h3>
+                <input type="email" placeholder="Your Email" class="box" required>
+                <input type="password" placeholder="Your Password" class="box" minlength="8" required>
+                <p>Forget password <a href="#">Click Here</a></p>
+                <p>Don't have account <a href="#">Create Now</a></p>
+                <input type="submit" value="Login Now" class="login-now">
+            </form>
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <section id="about-home">
+        <h2>About Sherlock !!</h2>
+    </section>
+
+    <!-- Container -->
+    <section id="about-container">
+        <div class="about-img">
+            <img src="images/Sherlock-College-2.png">
+        </div>
+        <div class="about-text">
+            <h2>Welcome to Sherlock, Enhance your skills with best online courses</h2>
+            <p>You can start and finish one of these popular courses in a day for free!
+               Check out the list below...Take the courses for free.
+            </p> 
+            <div class="about-fe">
+                <img src="images/fe1.png">
+                <div class="fe-text">
+                    <h5>400+ Courses</h5>
+                    <p>You can start and finish any number of these popular courses on our site</p>
+                </div>
+            </div>
+            <div class="about-fe">
+                <img src="images/fe2.png">
+                <div class="fe-text">
+                    <h5>Lifetime Access</h5>
+                    <p>On purchase we grant lifetime access those puchased courses</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assests</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. We only send promo offers.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright ©2023 All Rights Reseved. This template is made by Abhinav Nambiar</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+
+        let loginForm = document.querySelector('.login-form');
+
+        document.querySelector('#login-btn').onclick = () =>{
+        loginForm.classList.toggle('active');
+        }
+    </script>
+      
+</body>
+</html>
